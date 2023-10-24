@@ -28,9 +28,29 @@ def funct_chessBoard(varRows, varCols):
                 varChess += '  '
         print(varChess)
     print()
+
+def funct_sumAndAverageOfList(varS1):
+    intDigits = []
+    for varListChar in varS1:
+        if varListChar.isdigit():
+            intDigits.append(int(varListChar))
+    if not intDigits:
+        return "Str is empty"
+
+    intListSum = sum(intDigits)
+    intListAvg = intListSum / len(intDigits)
+
+    return intDigits, intListSum, intListAvg
+
 if __name__ == '__main__':
     factNumber = 10
     # f-string format to print a text and numbers at the same time
     print(f"Factorial of {factNumber}... {funct_factorial(factNumber)}")
 
     funct_chessBoard(8,8)
+
+    intNumbersInList, intNumbersSum, intNumbersAvg = funct_sumAndAverageOfList("dfjsk45fdsvds316")
+    print(f"Numbers found in string... {intNumbersInList}")
+    print(f"Numbers sum... {intNumbersSum}")
+    print(f"Numbers Avg... {intNumbersAvg}")
+
