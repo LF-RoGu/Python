@@ -2,14 +2,14 @@
 
 ## Subjects to Cover
 - [x] Hello World.
-- [x] Run a java program through terminal.
-- [x] Expression, Statesments & basic stuff.
-- [x] Classes.
-- [x] Methods.
-- [x] Method overloading.
-- [x] Constructors.
-- [x] Control Flow.
-- [x] Inheritance.
+- [ ] Run a java program through terminal.
+- [ ] Expression, Statesments & basic stuff.
+- [ ] Classes.
+- [ ] Methods.
+- [ ] Method overloading.
+- [ ] Constructors.
+- [ ] Control Flow.
+- [ ] Inheritance.
 - [ ] Polymorphism.
 - [ ] Interfaces.
 - [ ] Streams.
