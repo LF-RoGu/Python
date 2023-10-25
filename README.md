@@ -2,7 +2,7 @@
 
 ## Subjects to Cover
 - [x] Hello World.
-- [ ] Run a java program through terminal.
+- [x] Run a java program through terminal.
 - [ ] Expression, Statesments & basic stuff.
 - [ ] Classes.
 - [ ] Methods.
